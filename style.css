@@ -230,7 +230,7 @@ body {
       #gallery1 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: ;
         width: 100%;
         height: auto;
         float: left;
