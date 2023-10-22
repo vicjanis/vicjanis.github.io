@@ -230,7 +230,7 @@ body {
       #gallery1 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
         height: auto;
         float: left;
@@ -250,7 +250,7 @@ body {
       #gallery2 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
         height: auto;
         margin: 0;
