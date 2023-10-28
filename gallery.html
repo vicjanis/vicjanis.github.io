@@ -5,6 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Vic's Page | Gallery</title>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
 	<link href="style.css" rel="stylesheet">
 	<link href="css/prettyPhoto.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,12 +16,22 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/jquery.prettyPhoto.js"></script>
 	<link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+
+	<!-- jQuery -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+
+	<!-- nanogallery2 -->
+	<link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+	<script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
 </head>
 
 <body>
 
 	<div id="wrapper">
+
 		<header>
+
 			<div id="banner"></div>
 			<nav>
 				<ul class="flex-nav">
@@ -29,54 +41,104 @@
 				</ul>
 			</nav>
 
-
 		</header>
 
 		<main>
+
 			<div id="page-title1">
 				<h1>Digital</h1>
 
+				<div id="Digital" data-nanogallery2 = '{
+					thumbnailHeight": 50,
+					thumbnailWidth": "auto",
+					"thumbnailLabel": {"position": "overImageOnBottom", "titleMultiLine": true},
+					"viewerTools": {"topLeft": "label"},
+					}'>
 
-				<div id="gallery1">
-					<a href="images/full/Catskill Peaks Map.png" rel="prettyPhoto[pp_gal]" title="Catskill Peaks Map"><img src="images/thumbs/Catskill Peaks Map Thumb.png" alt="A panoramic view from the top of Plattekill Mountain labeling the High Peaks of the Catskill Mountains. The map labels 36 peaks, with elevation and distance from viewpoint." /></a>
+					<!-- ### Catskill Peaks Map ### -->
+					<a href="images/full/Catskill Peaks Map.png" data-ngkind="image" data-ngid="1" data-ngthumb="images/thumbs/Catskill Peaks Map Thumb.png">Catskill Peaks Map</a>
 
+					<!-- ### Door Hinge Font ### -->
+					<a href="" data-ngkind="album" data-ngid="2" data-ngthumb="images/thumbs/Door Hinge Font Thumb.png">Door Hinge Font</a>
+					<a href="images/full/Door Hinge Font.png"  data-ngid="20" data-ngalbumid="2" data-ngthumb="images/thumbs/Door Hinge Font Thumb.png">Door Hinge Font 1</a>
+					<a href="images/full/Door Hinge Font2.png"  data-ngid="21" data-ngalbumid="2" data-ngthumb="images/full/Door Hinge Font2.png">Door Hinge Font 2</a>
+					<a href="images/full/Door Hinge Font3.png"  data-ngid="22" data-ngalbumid="2" data-ngthumb="images/full/Door Hinge Font3.png">Door Hinge Font 3</a>
+					<a href="images/full/Door Hinge Font4.png"  data-ngid="23" data-ngalbumid="2" data-ngthumb="images/full/Door Hinge Font4.png">Door Hinge Font 4</a>
 
-					<a href="images/full/Door Hinge Font.png" rel="prettyPhoto[pp_gal]" title="Door Hinge Font"><img src="images/thumbs/Door Hinge Font Thumb.png" alt="A booklet describing the Door Hinge font, inspired by a metal gate." /></a>
-					<a href="images/full/Door Hinge Font2.png"  rel="prettyPhoto[pp_gal]" title="Door Hinge Font"></a>
-					<a href="images/full/Door Hinge Font3.png"  rel="prettyPhoto[pp_gal]" title="Door Hinge Font"></a>
-					<a href="images/full/Door Hinge Font4.png"  rel="prettyPhoto[pp_gal]" title="Door Hinge Font"></a>
+					<!-- ### Mom-orial ### -->
+					<a href="" data-ngkind="album" data-ngid="3" data-ngthumb="images/thumbs/Mom-orial Thumb.png">Mom-orial</a>
+					<a href="images/full/Mom-orial.png"  data-ngid="30" data-ngalbumid="3" data-ngthumb="images/thumbs/Mom-orial Thumb.png">Mom-orial 1</a>
+					<a href="images/full/Mom-orial2.png"  data-ngid="31" data-ngalbumid="3" data-ngthumb="images/full/Mom-orial2.png">Mom-orial 2</a>
 
-					<a href="images/full/Mom-orial.png" rel="prettyPhoto[pp_gal]" title="Mom-orial"><img src="images/thumbs/Mom-orial Thumb.png" alt="A digital memorial to Agnieszka Janis." /></a>
-					<a href="images/full/Mom-orial2.png"  rel="prettyPhoto[pp_gal]" title="Mom-orial"></a>
+					<!-- ### 3D Modeled Paintbrush Cup ### -->
+					<a href="images/full/3D Modeled Paintbrush Cup.png" data-ngkind="image" data-ngid="4" data-ngthumb="images/thumbs/3D Modeled Paintbrush Cup Thumb.png">3D Modeled Paintbrush Cup</a>
 
-					<a href="images/full/3D Modeled Paintbrush Cup.png" rel="prettyPhoto[pp_gal]" title="3D Modeled Paintbrush Cup Thumb"><img src="images/thumbs/3D Modeled Paintbrush Cup Thumb.png" alt="A glass cup full of colorful paint brushes with various metal finishes and brush textures rendered in Rhino7." /></a>
-					<a href="images/full/3D Modeled Spray Bottle.png" rel="prettyPhoto[pp_gal]" title="3D Modeled Spray Bottle"><img src="images/thumbs/3D Modeled Spray Bottle Thumb.png" alt="A spray bottle rendered in Rhino7." /></a>
-					<a href="images/full/Vic's Stuff Illustration.png" rel="prettyPhoto[pp_gal]" title="Vic's Stuff Illustration"><img src="images/thumbs/Vic's Stuff Illustration Thumb.png" alt="A poster of everything in my studio apartment illustrated and digitzed." /></a>
+					<!-- ### 3D Modeled Spray Bottle ### -->
+					<a href="images/full/3D Modeled Spray Bottle.png" data-ngkind="image" data-ngid="5" data-ngthumb="images/full/3D Modeled Spray Bottle.png">3D Modeled Spray Bottle</a>
 
-					<a href="images/full/Loganberry Word Search.png" rel="prettyPhoto[pp_gal]" title="Loganberry Word Search"><img src="images/thumbs/Loganberry Word Search Thumb.png" alt="A commission for a Crystal Beach Amusement Park and Loganbarry inspired text-based art." /></a>
-					<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-					<a href="images/full/Loganberry Print.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-					<a href="images/full/Loganberry Print1.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-					<a href="images/full/Drying Rack.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-					<a href="images/full/Process.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-					<a href="images/full/Polymer Plates.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-					<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
+					<!-- ### Vic's Stuff Illustration ### -->
+					<a href="images/full/Vic's Stuff Illustration.png" data-ngkind="image" data-ngid="7" data-ngthumb="images/thumbs/Vic's Stuff Illustration Thumb.png">Vic's Stuff Illustration</a>
 
-					<a href="images/full/Chicago Font Poster.png" rel="prettyPhoto[pp_gal]" title="Chicago Font Poster"><img src="images/thumbs/Chicago Font Poster Thumb.png" alt="An informational poster on Apple's Chicago font." /></a>
-					<a href="images/full/CII Logo.png" rel="prettyPhoto[pp_gal]" title="CII Logo"><img src="images/thumbs/CII Logo Thumb.png" alt="A logo design exercise for the Center of Information Technology at UB." /></a>
-					<a href="images/full/Donation Poster.png" rel="prettyPhoto[pp_gal]" title="Donation Poster"><img src="images/thumbs/Donation Poster Thumb.png" alt="A poster to describe what items are being accepted in donation." /></a>
-					<a href="images/full/How To Ski Poster.png" rel="prettyPhoto[pp_gal]" title="How To Ski Poster"><img src="images/thumbs/How To Ski Poster Thumb.png" alt="An instructional poster for skiing." /></a>
-
-
-
-
-
-					<a href="images/full/Type Anatomy.png" rel="prettyPhoto[pp_gal]" title="Type Anatomy"><img src="images/thumbs/Type Anatomy Thumb.png" alt="A poster describing the anatomy of the Hoefler typeface." /></a>
-
+					<!-- ### Loganberry Word Search ### -->
+					<a href=""           data-ngkind="album" data-ngid="7"                     data-ngthumb="images/full/Loganberry Word Search.png" >Loganberry</a>
+					<a href="images/full/Loganberry Word Search.png"  data-ngid="70" data-ngalbumid="7" data-ngthumb="images/full/Loganberry Word Search.png" >Loganberry Image 1</a>
+					<a href="images/full/Final Print2.png"  data-ngid="71" data-ngalbumid="7" data-ngthumb="images/full/Final Print2.png" >Loganberry Image 2</a>
+					<a href="images/full/Loganberry Print.png"      data-ngid="72" data-ngalbumid="7" data-ngthumb="images/full/Loganberry Print.png" >Loganberry Image 3</a>
+					<a href="images/full/Loganberry Print1.png"      data-ngid="73" data-ngalbumid="7" data-ngthumb="images/full/Loganberry Print1.png" >Loganberry Image 4</a>
+					<a href="images/full/Drying Rack.png"      data-ngid="74" data-ngalbumid="7" data-ngthumb="images/full/Drying Rack.png" >Loganberry Image 5</a>
+					<a href="images/full/Process.png"      data-ngid="75" data-ngalbumid="7" data-ngthumb="images/full/Process.png" >Loganberry Image 6</a>
+					<a href="images/full/Polymer Plates.png"      data-ngid="76" data-ngalbumid="7" data-ngthumb="images/full/Polymer Plates.png" >Loganberry Image 7</a>
 
 
 				</div>
 			</div>
+
+
+
+<!--			<div id="page-title1">-->
+<!--				<h1>Digital</h1>-->
+
+
+<!--				<div id="gallery1">-->
+<!--					<a href="images/full/Catskill Peaks Map.png" rel="prettyPhoto[pp_gal]" title="Catskill Peaks Map"><img src="images/thumbs/Catskill Peaks Map Thumb.png" alt="A panoramic view from the top of Plattekill Mountain labeling the High Peaks of the Catskill Mountains. The map labels 36 peaks, with elevation and distance from viewpoint." /></a>-->
+
+
+<!--					<a href="images/full/Door Hinge Font.png" rel="prettyPhoto[pp_gal]" title="Door Hinge Font"><img src="images/thumbs/Door Hinge Font Thumb.png" alt="A booklet describing the Door Hinge font, inspired by a metal gate." /></a>-->
+<!--					<a href="images/full/Door Hinge Font2.png"  rel="prettyPhoto[pp_gal]" title="Door Hinge Font"></a>-->
+<!--					<a href="images/full/Door Hinge Font3.png"  rel="prettyPhoto[pp_gal]" title="Door Hinge Font"></a>-->
+<!--					<a href="images/full/Door Hinge Font4.png"  rel="prettyPhoto[pp_gal]" title="Door Hinge Font"></a>-->
+
+<!--					<a href="images/full/Mom-orial.png" rel="prettyPhoto[pp_gal]" title="Mom-orial"><img src="images/thumbs/Mom-orial Thumb.png" alt="A digital memorial to Agnieszka Janis." /></a>-->
+<!--					<a href="images/full/Mom-orial2.png"  rel="prettyPhoto[pp_gal]" title="Mom-orial"></a>-->
+
+<!--					<a href="images/full/3D Modeled Paintbrush Cup.png" rel="prettyPhoto[pp_gal]" title="3D Modeled Paintbrush Cup Thumb"><img src="images/thumbs/3D Modeled Paintbrush Cup Thumb.png" alt="A glass cup full of colorful paint brushes with various metal finishes and brush textures rendered in Rhino7." /></a>-->
+<!--					<a href="images/full/3D Modeled Spray Bottle.png" rel="prettyPhoto[pp_gal]" title="3D Modeled Spray Bottle"><img src="images/thumbs/3D Modeled Spray Bottle Thumb.png" alt="A spray bottle rendered in Rhino7." /></a>-->
+<!--					<a href="images/full/Vic's Stuff Illustration.png" rel="prettyPhoto[pp_gal]" title="Vic's Stuff Illustration"><img src="images/thumbs/Vic's Stuff Illustration Thumb.png" alt="A poster of everything in my studio apartment illustrated and digitzed." /></a>-->
+
+<!--					<a href="images/full/Loganberry Word Search.png" rel="prettyPhoto[pp_gal]" title="Loganberry Word Search"><img src="images/thumbs/Loganberry Word Search Thumb.png" alt="A commission for a Crystal Beach Amusement Park and Loganbarry inspired text-based art." /></a>-->
+<!--					<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--					<a href="images/full/Loganberry Print.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--					<a href="images/full/Loganberry Print1.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--					<a href="images/full/Drying Rack.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--					<a href="images/full/Process.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--					<a href="images/full/Polymer Plates.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--					<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+
+<!--					<a href="images/full/Chicago Font Poster.png" rel="prettyPhoto[pp_gal]" title="Chicago Font Poster"><img src="images/thumbs/Chicago Font Poster Thumb.png" alt="An informational poster on Apple's Chicago font." /></a>-->
+<!--					<a href="images/full/CII Logo.png" rel="prettyPhoto[pp_gal]" title="CII Logo"><img src="images/thumbs/CII Logo Thumb.png" alt="A logo design exercise for the Center of Information Technology at UB." /></a>-->
+<!--					<a href="images/full/Donation Poster.png" rel="prettyPhoto[pp_gal]" title="Donation Poster"><img src="images/thumbs/Donation Poster Thumb.png" alt="A poster to describe what items are being accepted in donation." /></a>-->
+<!--					<a href="images/full/How To Ski Poster.png" rel="prettyPhoto[pp_gal]" title="How To Ski Poster"><img src="images/thumbs/How To Ski Poster Thumb.png" alt="An instructional poster for skiing." /></a>-->
+
+
+
+
+
+<!--					<a href="images/full/Type Anatomy.png" rel="prettyPhoto[pp_gal]" title="Type Anatomy"><img src="images/thumbs/Type Anatomy Thumb.png" alt="A poster describing the anatomy of the Hoefler typeface." /></a>-->
+
+
+
+<!--				</div>-->
+<!--			</div>-->
 			<div id="page-title2">
 				<h1>Physical</h1>
 
@@ -133,25 +195,20 @@
 		</div>
 			</div>
 		</main>
-		<footer id="footer-info"><span>Vic Janis<br />
-			<a href="https://www.instagram.com/vic_as_artist/?hl=en" title="Instagram Profile"> <img src ="images/full/instagram.png" alt="Instagram Profile Link" width="30px" height="30px"/>  </a>
-			<a href="mailto:vvictoriajjanis@gmail.com" title="Email"> <img src ="images/full/email.png" alt="Send Email Link" width="31.5px" height="31.5px"/>  </a>
-		</span></div></footer>
+
+		<footer id="footer-info">
+			<span>Vic Janis
+				<br/>
+				<a href="https://www.instagram.com/vic_as_artist/?hl=en" title="Instagram Profile">
+					<img src ="images/full/instagram.png" alt="Instagram Profile Link" width="30px" height="30px"/>
+				</a>
+				<a href="mailto:vvictoriajjanis@gmail.com" title="Email">
+					<img src ="images/full/email.png" alt="Send Email Link" width="31.5px" height="31.5px"/>
+				</a>
+			</span>
+		</footer>
+
 	</div> <!-- close wrapper -->
-
-	<script>
-	$(document).ready(function(){
-		$("a[rel^='prettyPhoto']").prettyPhoto({
-			social_tools:false,
-			animation_speed: 'normal', /* fast/slow/normal */
-			slideshow: 6500, /* false OR interval time in ms */
-			autoplay_slideshow: true, /* true/false */
-			opacity: 0.80, /* Value between 0 and 1 */
-			show_title: true, /* true/false */
-
-		});
-	});
-</script>
 
 </body>
 

@@ -5,22 +5,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Vic's Page | About</title>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
 	<link href="style.css" rel="stylesheet">
-	<link href="css/prettyPhoto.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/jquery.prettyPhoto.js"></script>
-	<link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+
+	<!-- jQuery -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+
+	<!-- nanogallery2 -->
+	<link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+	<script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 
 </head>
 
 <body>
 
 	<div id="wrapper">
+
 		<header>
+
 			<div id="banner"></div>
 			<nav>
 				<ul class="flex-nav">
@@ -30,9 +37,10 @@
 				</ul>
 			</nav>
 
-
 		</header>
+
 		<main>
+
 			<div id="left">
 				<div id="page-title3"><h2>Who Am I?</h2></div>
 				<article>
@@ -55,26 +63,25 @@
 				</div>
 			</div>
 
-
 		</main>
-		<footer id="footer-info"><span>Vic Janis<br />
-			<a href="https://www.instagram.com/vic_as_artist/?hl=en" title="Instagram Profile"> <img src ="images/full/instagram.png" alt="Instagram Profile Link" width="30px" height="30px"/>  </a>
-			<a href="mailto:vvictoriajjanis@gmail.com" title="Email"> <img src ="images/full/email.png" alt="Send Email Link" width="31.5px" height="31.5px"/>  </a>
-	</span></div></footer>
+
+		<footer id="footer-info">
+
+			<span>Vic Janis
+				<br/>
+				<a href="https://www.instagram.com/vic_as_artist/?hl=en" title="Instagram Profile">
+					<img src ="images/full/instagram.png" alt="Instagram Profile Link" width="30px" height="30px"/>
+				</a>
+				<a href="mailto:vvictoriajjanis@gmail.com" title="Email">
+					<img src ="images/full/email.png" alt="Send Email Link" width="31.5px" height="31.5px"/>
+				</a>
+			</span>
+
+		</footer>
+
 	</div> <!-- close wrapper -->
 
-	<script>
-	$(document).ready(function(){
-		$("a[rel^='prettyPhoto']").prettyPhoto({
-			social_tools:false,
-			animation_speed: 'fast', /* fast/slow/normal */
-			slideshow: 10000, /* false OR interval time in ms */
-			autoplay_slideshow: true, /* true/false */
-			opacity: 0.80, /* Value between 0 and 1 */
-			show_title: true, /* true/false */
-		});
-	});
-	</script>
+
 
 </body>
 
