@@ -5,20 +5,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Vic's Page | Home</title>
+
 	<link href="style.css" rel="stylesheet">
-	<link href="css/prettyPhoto.css" rel="stylesheet">
+<!--	<link href="css/prettyPhoto.css" rel="stylesheet">-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/jquery.prettyPhoto.js"></script>
-	<link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+<!--	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+<!--	<script src="js/jquery.prettyPhoto.js"></script>-->
+<!--	<link rel="stylesheet" href="css/prettyPhoto.css" media="screen">-->
+
+<!--	&lt;!&ndash; jQuery &ndash;&gt;-->
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>-->
+
+<!--	&lt;!&ndash; lightbox &ndash;&gt;-->
+<!--	<link href="css/lightbox.css" rel="stylesheet" />-->
+
+<!--	<script src="js/lightbox.js"></script>-->
+
+	<!-- jQuery -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+
+	<!-- nanogallery2 -->
+	<link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+	<script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
 </head>
 
 <body>
 
 	<div id="wrapper">
+
 		<header>
 			<div id="banner"></div>
 			<nav>
@@ -29,45 +47,107 @@
 					<li><a href="about.html" title="About">About Me</a></li>
 				</ul>
 			</nav>
-
 		</header>
+
+
+
 		<main>
 
-			<div id="gallerya">
-				<a href="images/full/Poster.png" rel="prettyPhoto[pp_gal]" title="DUPLEX"><img src="images/full/Poster.png" alt="An exhibition of local duplex style homes in Buffalo and the relationship between road construction, red lining, and the apperance of these buildings."/></a>
-				<a href="images/full/House Upclose.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Full Room.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Full Room2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Vic2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Writing.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Wall1.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Wall2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Sketch.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Printed Houses.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Vic3.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Vic4.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Spectrum.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Crowd2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
-				<a href="images/full/Crowd.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>
+			<div id="Duplex" data-nanogallery2 = '{
+					"thumbnailHeight": 200,
+					"thumbnailWidth":  "auto",
+					"thumbnailLabel": {"position": "overImageOnBottom", "titleMultiLine": true},
+					"viewerTools": {"topLeft": "label"},
 
 
+					"thumbnailL1Height": 1266,
+					"thumbnailL1Width": 838
+				}'>
 
+				<!-- ### gallery content ### -->
+				<a href=""           data-ngkind="album" data-ngid="1"                     data-ngthumb="images/full/Poster.png" >Duplex</a>
+				<a href="images/full/House Upclose.png"  data-ngid="10" data-ngalbumid="1" data-ngthumb="images/full/House Upclose.png" data-ngdesc="Look at this photograph" >Duplex Image 1</a>
+				<a href="images/full/Full Room.png"      data-ngid="11" data-ngalbumid="1" data-ngthumb="images/full/Full Room.png" >Duplex Image 2</a>
+				<a href="images/full/Full Room2.png"      data-ngid="12" data-ngalbumid="1" data-ngthumb="images/full/Full Room2.png" >Duplex Image 3</a>
+				<a href="images/full/Vic2.png"      data-ngid="13" data-ngalbumid="1" data-ngthumb="images/full/Vic2.png" >Duplex Image 4</a>
+				<a href="images/full/Writing.png"      data-ngid="14" data-ngalbumid="1" data-ngthumb="images/full/Writing.png" >Duplex Image 5</a>
+				<a href="images/full/Wall1.png"      data-ngid="15" data-ngalbumid="1" data-ngthumb="images/full/Wall1.png" >Duplex Image 6</a>
+				<a href="images/full/Wall2.png"      data-ngid="16" data-ngalbumid="1" data-ngthumb="images/full/Wall2.png" >Duplex Image 7</a>
+				<a href="images/full/Sketch.png"      data-ngid="17" data-ngalbumid="1" data-ngthumb="images/full/Sketch.png" >Duplex Image 8</a>
+				<a href="images/full/Printed Houses.png"      data-ngid="18" data-ngalbumid="1" data-ngthumb="images/full/Printed Houses.png" >Duplex Image 9</a>
+				<a href="images/full/Vic3.png"      data-ngid="19" data-ngalbumid="1" data-ngthumb="images/full/Vic3.png" >Duplex Image 10</a>
+				<a href="images/full/Vic4.png"      data-ngid="110" data-ngalbumid="1" data-ngthumb="images/full/Vic4.png" >Duplex Image 11</a>
+				<a href="images/full/Spectrum.png"      data-ngid="111" data-ngalbumid="1" data-ngthumb="images/full/Spectrum.png" >Duplex Image 12</a>
+				<a href="images/full/Crowd2.png"      data-ngid="112" data-ngalbumid="1" data-ngthumb="images/full/Crowd2.png" >Duplex Image 13</a>
+				<a href="images/full/Crowd.png"      data-ngid="113" data-ngalbumid="1" data-ngthumb="images/full/Crowd.png" >Duplex Image 14</a>
+
+				<!-- ### gallery content ### -->
+				<a href=""           data-ngkind="album" data-ngid="2"                     data-ngthumb="images/full/Loganberry Word Search.png" >Loganberry</a>
+				<a href="images/full/Final Print2.png"  data-ngid="20" data-ngalbumid="2" data-ngthumb="images/full/Final Print2.png" >Loganberry Image 1</a>
+				<a href="images/full/Loganberry Print.png"      data-ngid="21" data-ngalbumid="2" data-ngthumb="images/full/Loganberry Print.png" >Loganberry Image 2</a>
+				<a href="images/full/Loganberry Print1.png"      data-ngid="22" data-ngalbumid="2" data-ngthumb="images/full/Loganberry Print1.png" >Loganberry Image 3</a>
+				<a href="images/full/Drying Rack.png"      data-ngid="23" data-ngalbumid="2" data-ngthumb="images/full/Drying Rack.png" >Loganberry Image 4</a>
+				<a href="images/full/Process.png"      data-ngid="24" data-ngalbumid="2" data-ngthumb="images/full/Process.png" >Loganberry Image 5</a>
+				<a href="images/full/Polymer Plates.png"      data-ngid="25" data-ngalbumid="2" data-ngthumb="images/full/Polymer Plates.png" >Loganberry Image 6</a>
+				<a href="images/full/Final Print2.png"      data-ngid="26" data-ngalbumid="2" data-ngthumb="images/full/Final Print2.png" >Loganberry Image 7</a>
 
 			</div>
 
-			<div id="galleryb">
-				<a href="images/full/Loganberry Word Search.png" rel="prettyPhoto[pp_gal]" title="Loganberry Word Search"><img src="images/full/Loganberry Word Search.png" alt="A commission for a Crystal Beach Amusement Park and Loganbarry inspired text-based art." /></a>
-				<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-				<a href="images/full/Loganberry Print.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-				<a href="images/full/Loganberry Print1.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-				<a href="images/full/Drying Rack.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-				<a href="images/full/Process.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-				<a href="images/full/Polymer Plates.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
-				<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>
 
-			</div>
+<!--				<a href="images/full/Poster.png" rel="prettyPhoto[pp_gal]" title="DUPLEX"><img src="images/full/Poster.png" alt="An exhibition of local duplex style homes in Buffalo and the relationship between road construction, red lining, and the apperance of these buildings."/></a>-->
+<!--				<a href="images/full/House Upclose.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Full Room.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Full Room2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Vic2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Writing.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Wall1.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Wall2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Sketch.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Printed Houses.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Vic3.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Vic4.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Spectrum.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Crowd2.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+<!--				<a href="images/full/Crowd.png"  rel="prettyPhoto[pp_gal]" title="DUPLEX"></a>-->
+
+<!--			<div id="Loganberry" data-nanogallery2 = '{-->
+<!--					"thumbnailHeight": 200,-->
+<!--					"thumbnailWidth":  auto,-->
+
+<!--					"thumbnailL1Height": 1600,-->
+<!--					"thumbnailL1Width": 1200-->
+<!--				}'>-->
+
+<!--				&lt;!&ndash; ### gallery content ### &ndash;&gt;-->
+<!--				<a href=""           data-ngkind="album" data-ngid="2"                     data-ngthumb="images/full/Loganberry Word Search.png" >Loganberry</a>-->
+<!--				<a href="images/full/Final Print2.png"  data-ngid="20" data-ngalbumid="2" data-ngthumb="images/full/Final Print2.png" >Loganberry Image 1</a>-->
+<!--				<a href="images/full/Loganberry Print.png"      data-ngid="21" data-ngalbumid="2" data-ngthumb="images/full/Loganberry Print.png" >Loganberry Image 2</a>-->
+<!--				<a href="images/full/Loganberry Print1.png"      data-ngid="22" data-ngalbumid="2" data-ngthumb="images/full/Loganberry Print1.png" >Loganberry Image 3</a>-->
+<!--				<a href="images/full/Drying Rack.png"      data-ngid="23" data-ngalbumid="2" data-ngthumb="images/full/Drying Rack.png" >Loganberry Image 4</a>-->
+<!--				<a href="images/full/Process.png"      data-ngid="24" data-ngalbumid="2" data-ngthumb="images/full/Process.png" >Loganberry Image 5</a>-->
+<!--				<a href="images/full/Polymer Plates.png"      data-ngid="25" data-ngalbumid="2" data-ngthumb="images/full/Polymer Plates.png" >Loganberry Image 6</a>-->
+<!--				<a href="images/full/Final Print2.png"      data-ngid="26" data-ngalbumid="2" data-ngthumb="images/full/Final Print2.png" >Loganberry Image 7</a>-->
+
+<!--			</div>-->
+
+
+
+
+
+<!--			<div id="galleryb">-->
+<!--				<a href="images/full/Loganberry Word Search.png" rel="prettyPhoto[pp_gal]" title="Loganberry Word Search"><img src="images/full/Loganberry Word Search.png" alt="A commission for a Crystal Beach Amusement Park and Loganbarry inspired text-based art." /></a>-->
+<!--				<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--				<a href="images/full/Loganberry Print.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--				<a href="images/full/Loganberry Print1.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--				<a href="images/full/Drying Rack.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--				<a href="images/full/Process.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--				<a href="images/full/Polymer Plates.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+<!--				<a href="images/full/Final Print2.png"  rel="prettyPhoto[pp_gal]" title="Loganberry Wordsearch"></a>-->
+
+<!--			</div>-->
 
 		</main>
+
 		<footer id="footer-info"><span>Vic Janis<br />
 			<a href="https://www.instagram.com/vic_as_artist/?hl=en" title="Instagram Profile"> <img src ="images/full/instagram.png" alt="Instagram Profile Link" width="30px" height="30px"/>  </a>
 			<a href="mailto:vvictoriajjanis@gmail.com" title="Email"> <img src ="images/full/email.png" alt="Send Email Link" width="31.5px" height="31.5px"/>  </a>

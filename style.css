@@ -192,6 +192,8 @@ body {
 
       }
 
+
+
       #gallerya a img {
         align-items: flex-start;
         width: 300px;
@@ -491,3 +493,8 @@ body {
         }
       }
       /* Animation */
+
+
+.toolbar {
+  font-family: 'Montserrat', sans-serif;
+}.nGY2
