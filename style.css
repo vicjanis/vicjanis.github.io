@@ -128,9 +128,7 @@ body {
         #FBEEC0 50%,
         #FBEEC0 100% );
         padding-top: 25px;
-
       }
-
 
       nav {
         padding-top: 15px;
@@ -154,17 +152,22 @@ body {
         font-weight: 100;
         letter-spacing: 2px;
         text-decoration: none;
+        text-decoration-color: #000000;
         padding:20px 5px;
         text-align: center;
         color: #000000;
       }
 
+      nav li a:visited {
+        color: black;
+      }
+
       nav li a:hover {
         color: #ffffff;
-        text-decoration-color:  #ffffff;
-        text-decoration: none;
         transition: .5s;
       }
+
+
 
       #banner {
         width: 100%;
@@ -328,6 +331,15 @@ body {
         padding-left: .5em;
       }
 
+      #vic {
+        float: right;
+        justify-content: center;
+        width: 50%;
+        display: block;
+        margin: 0;
+        padding-right: 2.5em;
+      }
+
       article {
         width: 90%;
         padding: 1%;
@@ -342,6 +354,7 @@ body {
         margin-top: 5px;
         float:left;
       }
+
       #right{
         width: 65%;
         float: right;
@@ -379,7 +392,7 @@ body {
           padding: 5px;
         }
       }
-      @media screen and (max-width: 1000px) {
+      @media screen and (max-width: 1600px) {
         #gallerya{
           width:100%;
           margin-bottom: 2px;
@@ -456,6 +469,7 @@ body {
           display: block;
           padding: 5px;
           text-align: center;
+          text-decoration: none;
         }
         #banner {
           height: 70px;
